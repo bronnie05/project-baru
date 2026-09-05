@@ -23,7 +23,7 @@ berat_badan_ideal = dict()
 berat_badan_ideal["bawah"] = 18.5 * (tinggi_badan**2)
 berat_badan_ideal["atas"] = 24.9 * (tinggi_badan**2)
 
-print(berat_badan_ideal)
+print(f"berat badan ideal anda adalah: {berat_badan_ideal['bawah']:.2f} - {berat_badan_ideal['atas']:.2f} kg")
 
 print(f"nilai bmi anda adalah: {bmi:.2f}")
 print("berat badan ideal adalah 18,5-24.9 kg/m2")
